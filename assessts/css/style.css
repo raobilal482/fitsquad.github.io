@@ -886,7 +886,8 @@ font-size: 54px;
         border-radius: 5%;
     }
 }
-@media screen and (min-width: 3120px) {
+
+@media screen and (min-width: 3120px) and (min-height: 1440px) {
     .right{
         color: white;
 position: absolute;
