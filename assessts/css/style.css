@@ -1,0 +1,888 @@
+body {
+    margin: 0;
+    padding: 0;
+   background-image: url(./images/h1_hero\ \(1\).png);
+   /* background-size: contain; */
+   background-size: cover;
+            background-attachment: fixed; /* Fixed background while scrolling */
+            height: 100vh; /* Full viewport height */
+    
+}
+.mainhead{
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 144px;
+}
+.left{
+position: absolute;
+top: 5%;
+left: 1%;
+}
+.center{
+    margin-top: 2%;
+position: absolute;
+left: 30%;
+top: 5%;
+
+
+}
+.right{
+    color: white;
+position: absolute;
+right: 5%;
+top: 10%;
+}
+.btnnn button p{
+    color: white;
+}
+.ulclass{
+    list-style: none;
+}
+.ulclass li{
+    display: inline-block;
+    padding: 0px 25px;
+}
+.ulclass li:hover{
+    background-color: white;
+
+    color: black;
+    cursor: pointer;
+}
+.logoset{
+    width: 120px;
+    filter: invert(100%);
+    padding-left: 7%;
+}
+.logotext{
+    position: absolute;
+    left: 19.5%;
+    bottom: 16%;
+}
+
+.con{
+    box-shadow:0px 2px 15px rgba(0, 140, 255, 0.953);
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    margin: 20px 400px;
+    padding-left: 2%;
+    padding-top: 1%;
+    width: 25%;
+    height: 300px;
+    border-radius: 5%;
+    
+}
+.best{
+    color: rgb(48, 119, 233);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 5);
+    font-size: 50px;
+    
+}
+.best1{
+    
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 5);
+    font-size: 20px;
+    
+}
+.hire{
+    background: linear-gradient(to bottom, #f01c00, #bd1111);
+    border: none; 
+    color: white; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    text-decoration: none;
+    color: white;
+   
+}
+.hire:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); 
+    transform: translateY(-2px); 
+    background: linear-gradient(to bottom, #f74c09, #925555);
+}
+.world{
+    font-size: 20px;
+}
+.btn {
+    background: linear-gradient(to bottom, #95a3ac, #006B9F); 
+    border: none; 
+    color: white; 
+    padding: 5px 8px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+    transition: all 0.2s ease-in-out; 
+  }
+  
+  
+  .btn:hover {
+    background: linear-gradient(to bottom, #d5e0e6, #be720e); 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); 
+    transform: translateY(-2px); 
+  }
+  .asignup{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  .ahire{
+    color: white;
+    text-decoration: none;
+  }
+  .ashop{
+    text-decoration: none;
+    color: white;
+  }
+  .ashop:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  .secsection{
+    display: flex;
+
+    width: 99%;
+  }
+  .leftdivsecsection{
+    width: 50%;
+  }
+  .imgdiv{
+    margin-top: 15%;
+    position: relative;;
+  }
+  .firstimg img{
+    border-radius: 5%;
+    width: 50%;
+    height: 550px;
+    margin-left: 10%;
+    border: 2px solid white;
+}
+.secondimg img{
+    width: 40%;
+    height: 350px;
+    border: 2px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+  
+}
+.rightdivsecsection{
+    width: 50%;
+   
+}
+.rightsecfirstdiv{
+    color: white;
+    margin-top: 40%;
+    margin-left: 20%;
+  
+    
+}
+.circlemaindiv{
+    margin-top: 5%;
+    display:flex;
+align-items: center;
+justify-content: space-between;
+margin-left: 0%;
+
+
+}
+.circle{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    box-shadow:0px 2px 15px rgba(9, 9, 9, 0.953);
+    box-shadow:inset 0px 2px 15px rgb(0, 109, 252); 
+}
+li{
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow:0px 2px 15px rgba(255, 242, 0, 0.953);
+    box-shadow:inset 0px 2px 15px rgba(0, 109, 252, 0.549); 
+}
+.circle h3 {
+    margin: 0;
+}
+.rightsecfirstdiv p {
+    line-height: 1.5;
+}
+.conn{
+    box-shadow:0px 2px 15px rgba(0, 140, 255, 0.953);
+    background-color: rgba(255, 255, 255, 0.1);
+        color: rgb(255, 255, 255);
+        padding-left: 2%;
+        padding-top: 1%;
+        width: 70%;
+        margin-left: 40px;
+        height: 300px;
+        border-radius: 5%;
+        border-bottom-right-radius: 80%;
+        }
+        .btnn {
+            background: linear-gradient(to bottom, #3498db, #2980b9);
+            border: none;
+            color: #ffffff;
+            padding: 5px 9px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            font-weight: bold;
+             /* Rounded corners */
+            margin-top: 10px;
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+            transition: background 0.3s, transform 0.2s ease-in-out;
+            cursor: pointer;
+            overflow: hidden;
+        }
+        
+        /* Add a subtle gradient animation on hover */
+        .btnn:hover {
+            background: linear-gradient(to bottom, #2980b9, #3498db);
+            transform: translateY(-3px); /* Add a small upward lift on hover */
+        }
+        
+        /* Adjust the box shadow on hover for a subtle lift effect */
+        .btnn:hover {
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+        }
+        
+  .thirdmain{
+    color: white;
+    margin-top: 150px;
+    justify-content: center;
+  }
+  .thirdmainhead{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+  }
+  .thirdmainfirst{
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    width: 100%;
+   
+    display: flex;
+  }
+  .thirmainfirstfirst {
+    box-shadow:inset 0px 6px 12px rgba(0, 0, 0, 0.625);
+    box-shadow:0px 2px 18px rgba(255, 255, 0, 0.953);
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 30%;
+    border: .5px solid grey;
+    margin: 3%;
+    border-radius: .5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Example styles for the child elements (you can adjust these as needed) */
+.thirmainfirstfirst h1,
+.thirmainfirstfirst h4,
+.thirmainfirstfirst p {
+    text-align: center;
+    margin: 10px;
+}
+
+.thirdmainfirstfirstpara{
+    display: flex;
+    justify-content: center;
+    line-height: 40px;
+}
+.thirmainfirstfirstsechead{
+    border-top: .5px solid grey;
+    border-bottom: .5px solid grey;
+}
+.thirmainfirstfirstsechead h1{
+color: #3d52c6;
+font-size: 54px; 
+}
+.footer{
+    width: 100%;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+}
+.footer1{
+    width: 30%;
+    margin: 2%;
+  color: white;
+  border-right: .5px solid rgb(255, 255, 255);
+}
+.footer1img{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.footer1img img{
+    width: 35%;
+    height: 150px;
+}
+.footer2{
+    margin-top: 15%;
+
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.endoffooter{
+    border-top: .5px solid grey;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.btnnn {
+    background: linear-gradient(to bottom, #3498db, #2980b9);
+    border: none;
+    color: #ffffff;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+     /* Rounded corners */
+    margin-top: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+    transition: background 0.3s, transform 0.2s ease-in-out;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+/* Add a subtle gradient animation on hover */
+.btnnn:hover {
+    background: linear-gradient(to bottom, #2980b9, #3498db);
+    transform: translateY(-3px); /* Add a small upward lift on hover */
+}
+
+/* Adjust the box shadow on hover for a subtle lift effect */
+.btnnn:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+.bestt{
+    color: rgb(240, 30, 30);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 5);
+    font-size: 35px;
+    
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px)  {
+    .mainhead{
+        color: white;
+        display: flex;
+        width: 300px;
+        height: 144px;
+        margin-top: 1%;
+    }
+    .left{
+    position: absolute;
+    top: 5%;
+    left: 1%;
+    }
+    .center{
+        margin-top: 1%;
+    position: absolute;
+    left: 30%;
+    top: 5%;
+    
+    
+    }
+    .right{
+        color: rgb(237, 229, 229);
+    position: absolute;
+    right: 20%;
+    top: 45%;
+    }
+    .btnnn button p{
+        color: rgb(243, 235, 235);
+    }
+  
+    .ulclass li{
+        margin-top: 1%;
+        display: inline-block;
+        padding: 0px 25px;
+        margin: 3px;
+    }
+    .con{
+        margin-top: 110px;
+        margin-left: 15px;
+        margin-right: 10px;
+        padding-left: 2%;
+        padding-top: 1%;
+        width: auto;
+        height: 350px;
+        border-radius: 5%;
+    }
+    .hire{
+       
+        padding: 10px 20px; 
+        margin-top: 1%;
+        text-decoration: none;
+        color: white;
+    }
+    .secsection{
+       margin-left: 2%;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .leftdivsecsection{
+        
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .imgdiv{
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 10%;
+    }
+    .firstimg{
+        width: 100%;
+    }
+    .secondimg{
+        width: 100%;
+        
+    }
+    .rightdivsecsection{
+        margin-top: 40%;
+        width: 90%;
+        margin-left: 0%;
+    }
+    .rightsecfirstdiv{
+        width: auto;
+        height: 500px;
+        margin: 0%;
+        margin-top: 10%;
+    }
+    .footer{
+        margin-right: 0%;
+        width: 100%;
+        margin-top: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer1{
+        margin-right: 0%;
+        margin: 5%;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-bottom: .5px solid grey;
+    }
+    .footer2{
+        margin-right: 0%;
+        margin: 2%;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+    .endoffooter{
+        margin-top: 90%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+   .thirdmain{
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+   
+    .thirdmainfirst{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .thirmainfirstfirst{
+        margin-left: 4%;
+        margin-top: 5%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .thirdmainhead{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .thirmainfirstfirstsechead{
+        width: 100%;
+       
+    }
+    .thirmainfirstfirstsechead .aa{
+        width: 100%;
+        font-size: larger;
+      
+       
+    }
+}
+@media screen and (min-width: 401px) and (max-width: 630px)  {
+    .mainhead{
+        color: white;
+        display: flex;
+        width: 300px;
+        height: 144px;
+        margin-top: 1%;
+    }
+    .left{
+    position: absolute;
+    top: 5%;
+    left: 1%;
+    }
+    .center{
+        margin-top: 1%;
+    position: absolute;
+    left: 30%;
+    top: 5%;
+    
+    
+    }
+    .right{
+        color: rgb(237, 229, 229);
+    position: absolute;
+    right: 10%;
+    top: 30%;
+    }
+    .btnnn button p{
+        color: rgb(243, 235, 235);
+    }
+  
+    .ulclass li{
+        margin-top: 1%;
+        display: inline-block;
+        padding: 0px 25px;
+        margin: 3px;
+    }
+    .con{
+        margin-top: 110px;
+        margin-left: 35px;
+        margin-right: 10px;
+        padding-left: 2%;
+        padding-top: 1%;
+        width: auto;
+        height: 350px;
+        border-radius: 5%;
+    }
+    .hire{
+       
+        padding: 10px 20px; 
+        margin-top: 1%;
+        text-decoration: none;
+        color: white;
+    }
+    .secsection{
+       margin-left: 2%;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .leftdivsecsection{
+        
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .imgdiv{
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 10%;
+    }
+    .firstimg{
+        width: 100%;
+    }
+    .secondimg{
+        width: 100%;
+        
+    }
+    .rightdivsecsection{
+        margin-top: 40%;
+        width: 90%;
+        margin-left: 0%;
+    }
+    .rightsecfirstdiv{
+        width: auto;
+        height: 500px;
+        margin: 0%;
+        margin-top: 10%;
+    }
+    .footer{
+        margin-right: 0%;
+        width: 100%;
+        margin-top: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer1{
+        margin-right: 0%;
+        margin: 5%;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-bottom: .5px solid grey;
+    }
+    .footer2{
+        margin-right: 0%;
+        margin: 2%;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+    .endoffooter{
+        margin-top: 60%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+   .thirdmain{
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+   
+    .thirdmainfirst{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .thirmainfirstfirst{
+        margin-left: 10%;
+        margin-top: 5%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .thirdmainhead{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .thirmainfirstfirstsechead{
+        width: 100%;
+       
+    }
+    .thirmainfirstfirstsechead .aa{
+        width: 100%;
+        font-size: larger;
+      
+       
+    }
+}
+@media screen and (min-width: 630px) and (max-width: 850px)  {
+    .right{
+        color: white;
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    }
+    .ulclass li{
+        display: inline-block;
+        padding: 0px 25px;
+        margin-top: 2%;
+    }
+    .con{
+        box-shadow:0px 2px 15px rgba(0, 140, 255, 0.953);
+        background-color: rgba(255, 255, 255, 0.1);
+        color: white;
+        margin: 20px;
+        margin-left: 27%;
+        padding-left: 2%;
+        padding-top: 1%;
+        width: 45%;
+        height: 300px;
+        border-radius: 5%;
+    }
+    .rightsecfirstdiv{
+        width: 95%;
+        margin-left: 0%;
+        height: 420px;
+    }
+    .thirdmain{
+        margin-top: 20%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+       
+        .thirdmainfirst{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .thirmainfirstfirst{
+            margin-left: 5%;
+            margin-top: 5%;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .thirdmainhead{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .thirmainfirstfirstsechead{
+            width: 100%;
+           
+        }
+        .thirmainfirstfirstsechead .aa{
+            width: 100%;
+            font-size: larger;
+          
+           
+        }
+}
+@media screen and (min-width: 851px) and (max-width: 1023px)  {
+    .right{
+        color: white;
+    position: absolute;
+    right: 5%;
+    top: 22%;
+    }
+    .con{
+        box-shadow:0px 2px 15px rgba(0, 140, 255, 0.953);
+        background-color: rgba(255, 255, 255, 0.1);
+        color: white;
+        margin: 20px;
+        margin-left: 20%;
+        padding-left: 2%;
+        padding-top: 1%;
+        width: 45%;
+        height: 300px;
+        border-radius: 5%;
+    }
+    .rightsecfirstdiv{
+        width: 95%;
+        margin-left: 0%;
+        height: 350px;
+    }
+    .thirdmain{
+        
+        width: 100%;
+       
+    }
+    .thirdmainfirst{
+        width: 100%;
+       
+    }
+    .thirmainfirstfirst{
+        height: 600px;
+        margin-left: 5%;
+        margin-top: 1%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 1023px) and (max-width: 1068px)    {
+    .right{
+        color: white;
+    position: absolute;
+    right: 5%;
+    top: 22%;
+    }
+    .con{
+        box-shadow:0px 2px 15px rgba(0, 140, 255, 0.953);
+        background-color: rgba(255, 255, 255, 0.1);
+        color: white;
+        margin: 20px;
+        margin-left: 20%;
+        padding-left: 2%;
+        padding-top: 1%;
+        width: 45%;
+        height: 300px;
+        border-radius: 5%;
+    }
+}
+@media screen and (min-width: 1069px)     {
+    .right{
+        color: white;
+    position: absolute;
+    right: 2%;
+    top: 10%;
+    }
+    .con{
+        box-shadow:0px 2px 15px rgba(0, 140, 255, 0.953);
+        background-color: rgba(255, 255, 255, 0.1);
+        color: white;
+        margin: 20px;
+        margin-left: 20%;
+        padding-left: 2%;
+        padding-top: 1%;
+        width: 35%;
+        height: 300px;
+        border-radius: 5%;
+    }
+}
