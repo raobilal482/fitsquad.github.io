@@ -886,3 +886,12 @@ font-size: 54px;
         border-radius: 5%;
     }
 }
+@media screen and (min-width: 3120px) {
+    .right{
+        color: white;
+position: absolute;
+right: 5%;
+top: 10%;
+    }
+}
+
